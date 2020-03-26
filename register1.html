@@ -1,0 +1,71 @@
+<html>
+	<head>
+		<title><font color="green"> Registration </font></title>
+		<style type = "text/css">
+			input[type="submit"]{
+				cursor:pointer;
+			}
+		</style>
+	</head>
+	
+	<body background="C:\Users\ARIF\Downloads\login.jpg">
+	
+		<header> 
+			<img src="C:\Users\ARIF\Downloads\header.webp"  height ="300px" width ="1000px" >
+			<img src ="C:\Users\ARIF\Downloads\baby1.jpg" style="float:right;width:350px;height:300px;">
+		</header>
+		
+		<center>
+			<h2><font color="peach"> Registration </font></h2>
+			<table>
+				<tr>
+					<td><font color="yellow"> Username </font></td>
+					<td>
+						<input type="text"  name="user">
+					</td>
+				</tr>
+				<tr>
+					<td> <font color="yellow"> Password </font> </td>
+					<td>
+						<input type="password" name="pass">
+					</td>
+				</tr>
+			</table>
+		</center>
+		
+		<center>
+			<table>
+				<tr>
+					<td> <font color="yellow"> Email </font> </td>
+					<td>
+						<input type="text" name="email">
+					</td>
+				</tr>
+				<tr>
+					<td> <font color="yellow"> Phone </font> </td>
+					<td>
+						<input type="text" name="phone">
+					</td>
+				</tr>
+		</center>
+		
+		<center>
+			<tr>
+				<td>
+					<input type="submit" name="submit value="Submit" onclick="msg()">
+				</td>
+				<td>
+					<font color="yellow">
+						Already a user? <a href="login.html"><font color="yellow"> Login Here </font></a>
+					</font>
+				</td>
+			</tr>
+		</center>
+		<script>
+			function msg()
+			{
+				alert("Registration Succesfully");
+			}
+		</script>
+	</body>
+</html>
